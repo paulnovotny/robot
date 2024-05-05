@@ -36,7 +36,7 @@ public class Robot extends TimedRobot {
   
   private final WPI_TalonSRX arm_rotate = new WPI_TalonSRX(1);
   private final WPI_TalonSRX arm_extend = new WPI_TalonSRX(2);
-  private final WPI_TalonSRX arm_extend = new WPI_TalonSRX(5);
+  //private final WPI_TalonSRX arm_extend = new WPI_TalonSRX(5);
   
 
   private final DifferentialDrive m_robotDrive =
