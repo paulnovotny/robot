@@ -25,18 +25,18 @@ import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
  */
 public class Robot extends TimedRobot {
    
-  //private final PWMSparkMax m_leftDrive = new PWMSparkMax(0);
+  // private final PWMSparkMax m_leftDrive = new PWMSparkMax(0);
   // private final PWMSparkMax m_rightDrive = new PWMSparkMax(1);
   PowerDistribution examplePD = new PowerDistribution(0, ModuleType.kCTRE);
 
-  //private final TalonFX m_leftDrive = new TalonFX(3);
-  //private final TalonFX m_rightDrive = new TalonFX(4);
+  // private final TalonFX m_leftDrive = new TalonFX(3);
+  // private final TalonFX m_rightDrive = new TalonFX(4);
   private final WPI_TalonSRX m_leftDrive = new WPI_TalonSRX(3);
   private final WPI_TalonSRX m_rightDrive = new WPI_TalonSRX(4);
   
-  private final WPI_TalonSRX arm_rotate = new WPI_TalonSRX(1);
-  private final WPI_TalonSRX arm_extend = new WPI_TalonSRX(2);
-  //private final WPI_TalonSRX arm_extend = new WPI_TalonSRX(5);
+  // private final WPI_TalonSRX arm_rotate = new WPI_TalonSRX(1);
+  // private final WPI_TalonSRX arm_extend = new WPI_TalonSRX(2);
+  // private final WPI_TalonSRX arm_extend = new WPI_TalonSRX(5);
   
 
   private final DifferentialDrive m_robotDrive =
